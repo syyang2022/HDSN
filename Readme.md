@@ -7,7 +7,6 @@ Our project is dedicated to the use of degradation processes and corresponding f
 
 
 # 二、文件夹列表
-tree D:\师兄师姐成果\舒探特\舒琛特代码 /F 
 
 │  main.py 
 │  model_best.pth
