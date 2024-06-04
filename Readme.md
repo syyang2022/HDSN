@@ -1,4 +1,4 @@
-# 一、项目名称与简介
+# 1、 Project Name and Introduction
 
 
 Title:Pragmatic Degradation Learning for Scene Text Image Super-Resolution with data-training strategy
@@ -6,7 +6,7 @@ Title:Pragmatic Degradation Learning for Scene Text Image Super-Resolution with 
 Our project is dedicated to the use of degradation processes and corresponding finetune strategies to enhance super-resolution effects.
 
 
-# 二、文件夹列表
+# 2、 Folder List
 
 │  main.py   
 │  model_best.pth  
@@ -97,7 +97,7 @@ Our project is dedicated to the use of degradation processes and corresponding f
     │  utils_moran.py  
 
 
-# 三、所需环境
+# 3、 Required environment
 easydict==1.9  
 editdistance==0.5.3  
 lmdb==1.2.1  
@@ -115,5 +115,19 @@ tqdm==4.61.0
 pyyaml  
 ipython  
 future  
-# 四、使用方法（★极其重要）
-python main.py --batch_size=16 --exp_name=test --text_focus --test --resume='./checkpoint/yourfile/model_best.pth' 
+# 4、 Operate (★important)
+python main.py --batch_size=16 --exp_name=test --text_focus --test --resume='./checkpoint/yourfile/model_best.pth' 　　
+# Citation
+If our code or models help your work, please cite our paper:　　
+@article{YANG2024111349,　　
+title = {Pragmatic degradation learning for scene text image super-resolution with　　
+data-training strategy},　　
+journal = {Knowledge-Based Systems},　　
+volume = {285},　　
+pages = {111349},　　
+year = {2024},　　
+issn = {0950-7051},　　
+doi = {https://doi.org/10.1016/j.knosys.2023.111349},　　
+url = {https://www.sciencedirect.com/science/article/pii/S0950705123010973},　　
+author = {Shengying Yang and Lifeng Xie and Xiaoxiao Ran and Jingsheng Lei and Xiaohong　　
+Qian},
